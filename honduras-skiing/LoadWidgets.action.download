@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+/* no-widget no-banner no-sponsor */
+if (top.location.href.match(/\/..\/create\/photo-album/g)) {
+	var e = document.documentElement;
+	if (e && e.classList) {
+		e.classList.add('jalbumWidgetbar');
+	}
+}
+
